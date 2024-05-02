@@ -29,6 +29,20 @@
 - [Demo Project](https://profreelancer.ir)
 - فرانت و بک اند همراه دیتابیس در لیارا دیپلوی شده
 
+### Technology Used
+
+1 - Tailwind
+2 - react-query
+3 - axios
+4 - react-router-dom
+5 - react-hook-form
+6 - react-hot-toast
+7 - react-icons
+8 - react-loader-spinner
+9 - react-multi-date-picker
+10 - react-otp-input
+11 - react-tag-input-component
+
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -60,3 +74,6 @@ Erfan Sharafi - [09105003119](https://twitter.com/your_username) - erfansharafi6
 
 Project Link: [https://github.com/Erfanabi/fullstack-freelancer](https://github.com/Erfanabi/fullstack-freelancer)
 
+[product-screenshot]: public/Screenshot.png
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
