@@ -1,0 +1,1495 @@
+    <div className="p-5 flex lgqw8 f0dty k3u76 dark:bg-neutral-800">
+      <div className="pb-4 flex azaj8 items-center flex-wrap l8bcf v82gf bg8gm ffqht dark:border-neutral-700">
+        <div>
+          <h2 className="inline-block kxhcs j4ei7 dark:text-neutral-200">
+            Top products
+          </h2>
+        </div>
+
+        <div>
+          <div className="relative">
+            <div className="absolute vt6s4 atruh flex items-center i24sd ootlu ps-3.5">
+              <svg
+                className="flex-shrink-0 sfo8l qcpnt fj6be dark:text-neutral-400"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.3-4.3"></path>
+              </svg>
+            </div>
+            <input
+              type="text"
+              className="py-[7px] vrf2y h996k block w-full qcnad si6qh yj6bp nq4w8 dtjcu mjqc8 focus:border-green-500 focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-700 dark:border-transparent dark:text-neutral-400 dark:placeholder:text-neutral-400 dark:focus:ring-neutral-600"
+              placeholder="Search products"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="overflow-x-auto cs0un szov1 nn2ns g3n6w dark:[&amp;::-webkit-scrollbar-track]:bg-neutral-700 dark:[&amp;::-webkit-scrollbar-thumb]:bg-neutral-500">
+        <div className="min-w-full uiqm5 align-middle">
+          <table className="min-w-full phe4g igot0 dark:divide-neutral-700">
+            <thead>
+              <tr>
+                <th scope="col" className="ps-3 text-start">
+                  <input
+                    type="checkbox"
+                    className="shrink-0 dmrud sg5ei mq8xz focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-green-500 dark:checked:border-green-500 dark:focus:ring-offset-neutral-800"
+                  />
+                </th>
+
+                <th scope="col" className="min-w-[300px] lg:min-w-[500px]">
+                  <div className="hs-dropdown relative pqrvw w-full cursor-pointer">
+                    <button
+                      id="hs-pro-dutnms"
+                      type="button"
+                      className="px-5 j9jou in9y1 w-full flex items-center azej2 rvi38 ouifk qfc33 fj6be focus:outline-none focus:bg-stone-100 dark:text-neutral-500 dark:focus:bg-neutral-700"
+                    >
+                      Item
+                      <svg
+                        className="flex-shrink-0 pmkhf h-3"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="m7 15 5 5 5-5"></path>
+                        <path d="m7 9 5-5 5 5"></path>
+                      </svg>
+                    </button>
+
+                    <div
+                      className="hs-dropdown-menu muqsh ccpye transition-[opacity,margin] duration opacity-0 hidden wlsmd f0dty k3u76 shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] dark:bg-neutral-900 dark:shadow-[0_10px_40px_10px_rgba(0,0,0,0.2)]"
+                      aria-labelledby="hs-pro-dutnms"
+                    >
+                      <div className="p-1">
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m5 12 7-7 7 7"></path>
+                            <path d="M12 19V5"></path>
+                          </svg>
+                          Sort ascending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                          </svg>
+                          Sort descending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m12 19-7-7 7-7"></path>
+                            <path d="M19 12H5"></path>
+                          </svg>
+                          Move left
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                          </svg>
+                          Move right
+                        </button>
+
+                        <div className="my-1 lz37y ffqht dark:border-neutral-800"></div>
+
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path>
+                            <path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"></path>
+                            <path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"></path>
+                            <line x1="2" x2="22" y1="2" y2="22"></line>
+                          </svg>
+                          Hide in view
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+
+                <th scope="col">
+                  <div className="hs-dropdown relative pqrvw w-full cursor-pointer">
+                    <button
+                      id="hs-pro-dutads"
+                      type="button"
+                      className="px-5 j9jou in9y1 w-full flex items-center azej2 rvi38 ouifk qfc33 fj6be focus:outline-none focus:bg-stone-100 dark:text-neutral-500 dark:focus:bg-neutral-700"
+                    >
+                      Change
+                      <svg
+                        className="flex-shrink-0 pmkhf h-3"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="m7 15 5 5 5-5"></path>
+                        <path d="m7 9 5-5 5 5"></path>
+                      </svg>
+                    </button>
+
+                    <div
+                      className="hs-dropdown-menu muqsh ccpye transition-[opacity,margin] duration opacity-0 hidden wlsmd f0dty k3u76 shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] dark:bg-neutral-900 dark:shadow-[0_10px_40px_10px_rgba(0,0,0,0.2)]"
+                      aria-labelledby="hs-pro-dutads"
+                    >
+                      <div className="p-1">
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m5 12 7-7 7 7"></path>
+                            <path d="M12 19V5"></path>
+                          </svg>
+                          Sort ascending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                          </svg>
+                          Sort descending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m12 19-7-7 7-7"></path>
+                            <path d="M19 12H5"></path>
+                          </svg>
+                          Move left
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                          </svg>
+                          Move right
+                        </button>
+
+                        <div className="my-1 lz37y ffqht dark:border-neutral-800"></div>
+
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path>
+                            <path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"></path>
+                            <path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"></path>
+                            <line x1="2" x2="22" y1="2" y2="22"></line>
+                          </svg>
+                          Hide in view
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+
+                <th scope="col">
+                  <div className="hs-dropdown relative pqrvw w-full cursor-pointer">
+                    <button
+                      id="hs-pro-dutemails"
+                      type="button"
+                      className="px-5 j9jou in9y1 w-full flex items-center azej2 rvi38 ouifk qfc33 fj6be focus:outline-none focus:bg-stone-100 dark:text-neutral-500 dark:focus:bg-neutral-700"
+                    >
+                      Price
+                      <svg
+                        className="flex-shrink-0 pmkhf h-3"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="m7 15 5 5 5-5"></path>
+                        <path d="m7 9 5-5 5 5"></path>
+                      </svg>
+                    </button>
+
+                    <div
+                      className="hs-dropdown-menu muqsh ccpye transition-[opacity,margin] duration opacity-0 hidden wlsmd f0dty k3u76 shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] dark:bg-neutral-900 dark:shadow-[0_10px_40px_10px_rgba(0,0,0,0.2)]"
+                      aria-labelledby="hs-pro-dutemails"
+                    >
+                      <div className="p-1">
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m5 12 7-7 7 7"></path>
+                            <path d="M12 19V5"></path>
+                          </svg>
+                          Sort ascending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                          </svg>
+                          Sort descending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m12 19-7-7 7-7"></path>
+                            <path d="M19 12H5"></path>
+                          </svg>
+                          Move left
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                          </svg>
+                          Move right
+                        </button>
+
+                        <div className="my-1 lz37y ffqht dark:border-neutral-800"></div>
+
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path>
+                            <path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"></path>
+                            <path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"></path>
+                            <line x1="2" x2="22" y1="2" y2="22"></line>
+                          </svg>
+                          Hide in view
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+
+                <th scope="col">
+                  <div className="hs-dropdown relative pqrvw w-full cursor-pointer">
+                    <button
+                      id="hs-pro-dutphs"
+                      type="button"
+                      className="px-5 j9jou in9y1 w-full flex items-center azej2 rvi38 ouifk qfc33 fj6be focus:outline-none focus:bg-stone-100 dark:text-neutral-500 dark:focus:bg-neutral-700"
+                    >
+                      Sold
+                      <svg
+                        className="flex-shrink-0 pmkhf h-3"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="m7 15 5 5 5-5"></path>
+                        <path d="m7 9 5-5 5 5"></path>
+                      </svg>
+                    </button>
+
+                    <div
+                      className="hs-dropdown-menu muqsh ccpye transition-[opacity,margin] duration opacity-0 hidden wlsmd f0dty k3u76 shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] dark:bg-neutral-900 dark:shadow-[0_10px_40px_10px_rgba(0,0,0,0.2)]"
+                      aria-labelledby="hs-pro-dutphs"
+                    >
+                      <div className="p-1">
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m5 12 7-7 7 7"></path>
+                            <path d="M12 19V5"></path>
+                          </svg>
+                          Sort ascending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                          </svg>
+                          Sort descending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m12 19-7-7 7-7"></path>
+                            <path d="M19 12H5"></path>
+                          </svg>
+                          Move left
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                          </svg>
+                          Move right
+                        </button>
+
+                        <div className="my-1 lz37y ffqht dark:border-neutral-800"></div>
+
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path>
+                            <path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"></path>
+                            <path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"></path>
+                            <line x1="2" x2="22" y1="2" y2="22"></line>
+                          </svg>
+                          Hide in view
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+
+                <th scope="col">
+                  <div className="hs-dropdown relative pqrvw w-full cursor-pointer">
+                    <button
+                      id="hs-pro-dutphsl"
+                      type="button"
+                      className="px-5 j9jou in9y1 w-full flex items-center azej2 rvi38 ouifk qfc33 fj6be focus:outline-none focus:bg-stone-100 dark:text-neutral-500 dark:focus:bg-neutral-700"
+                    >
+                      Sales
+                      <svg
+                        className="flex-shrink-0 pmkhf h-3"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="m7 15 5 5 5-5"></path>
+                        <path d="m7 9 5-5 5 5"></path>
+                      </svg>
+                    </button>
+
+                    <div
+                      className="hs-dropdown-menu muqsh ccpye transition-[opacity,margin] duration opacity-0 hidden wlsmd f0dty k3u76 shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] dark:bg-neutral-900 dark:shadow-[0_10px_40px_10px_rgba(0,0,0,0.2)]"
+                      aria-labelledby="hs-pro-dutphsl"
+                    >
+                      <div className="p-1">
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m5 12 7-7 7 7"></path>
+                            <path d="M12 19V5"></path>
+                          </svg>
+                          Sort ascending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                          </svg>
+                          Sort descending
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m12 19-7-7 7-7"></path>
+                            <path d="M19 12H5"></path>
+                          </svg>
+                          Move left
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                          </svg>
+                          Move right
+                        </button>
+
+                        <div className="my-1 lz37y ffqht dark:border-neutral-800"></div>
+
+                        <button
+                          type="button"
+                          className="w-full flex items-center ukt6v zdxcz grnyh nq4w8 ldcb4 qfc33 j4ei7 r1hp8 kko9e tk4f7 dark:text-neutral-300 focus:outline-none focus:bg-stone-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                        >
+                          <svg
+                            className="flex-shrink-0 xtsb0 h-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"></path>
+                            <path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"></path>
+                            <path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"></path>
+                            <line x1="2" x2="22" y1="2" y2="22"></line>
+                          </svg>
+                          Hide in view
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody className="divide-y igot0 dark:divide-neutral-700">
+              <tr className="hover:bg-stone-100 cursor-pointer dark:hover:bg-neutral-900">
+                <td className="h-px lnq7o mfkro c8qx6 mvnfe align-top">
+                  <input
+                    type="checkbox"
+                    className="shrink-0 dmrud sg5ei mq8xz focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-green-500 dark:checked:border-green-500 dark:focus:ring-offset-neutral-800"
+                  />
+                </td>
+                <td className="h-px lnq7o mvnfe qxuf9 relative">
+                  <a
+                    className="before:absolute s920d before:z-[9]"
+                    href="#"
+                  ></a>
+                  <div className="w-full flex items-center gap-x-3">
+                    <img
+                      className="flex-shrink-0 w13ko e4kj6 rounded-md"
+                      src="https://images.unsplash.com/photo-1528310385748-dba09bf1657a?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=320&amp;q=80"
+                      alt="Image Description"
+                    />
+                    <div className="grow">
+                      <span className="text-sm eass7 j4ei7 dark:text-neutral-200">
+                        Google Home
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    72%
+                    <span className="inline-block text-red-500">
+                      3.1%
+                      <svg
+                        className="inline-block ja4wp sfo8l qcpnt text-red-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline>
+                        <polyline points="16 17 22 17 22 11"></polyline>
+                      </svg>
+                    </span>
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    $65
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    7,545
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="font-semibold dtjcu j4ei7 dark:text-neutral-200">
+                    $15,302.00
+                  </span>
+                </td>
+              </tr>
+
+              <tr className="hover:bg-stone-100 cursor-pointer dark:hover:bg-neutral-900">
+                <td className="h-px lnq7o mfkro c8qx6 mvnfe align-top">
+                  <input
+                    type="checkbox"
+                    className="shrink-0 dmrud sg5ei mq8xz focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-green-500 dark:checked:border-green-500 dark:focus:ring-offset-neutral-800"
+                  />
+                </td>
+                <td className="h-px lnq7o mvnfe qxuf9 relative">
+                  <a
+                    className="before:absolute s920d before:z-[9]"
+                    href="#"
+                  ></a>
+                  <div className="w-full flex items-center gap-x-3">
+                    <img
+                      className="flex-shrink-0 w13ko e4kj6 rounded-md"
+                      src="https://images.unsplash.com/photo-1613852348851-df1739db8201?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=320&amp;q=80"
+                      alt="Image Description"
+                    />
+                    <div className="grow">
+                      <span className="text-sm eass7 j4ei7 dark:text-neutral-200">
+                        Calvin Klein T-shirts
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    50%
+                    <span className="inline-block text-green-500">
+                      47%
+                      <svg
+                        className="inline-block ja4wp sfo8l qcpnt text-green-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                        <polyline points="16 7 22 7 22 13"></polyline>
+                      </svg>
+                    </span>
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    $89
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    4,714
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="font-semibold dtjcu j4ei7 dark:text-neutral-200">
+                    $8,466.02
+                  </span>
+                </td>
+              </tr>
+
+              <tr className="hover:bg-stone-100 cursor-pointer dark:hover:bg-neutral-900">
+                <td className="h-px lnq7o mfkro c8qx6 mvnfe align-top">
+                  <input
+                    type="checkbox"
+                    className="shrink-0 dmrud sg5ei mq8xz focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-green-500 dark:checked:border-green-500 dark:focus:ring-offset-neutral-800"
+                  />
+                </td>
+                <td className="h-px lnq7o mvnfe qxuf9 relative">
+                  <a
+                    className="before:absolute s920d before:z-[9]"
+                    href="#"
+                  ></a>
+                  <div className="w-full flex items-center gap-x-3">
+                    <img
+                      className="flex-shrink-0 w13ko e4kj6 rounded-md"
+                      src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=320&amp;q=80"
+                      alt="Image Description"
+                    />
+                    <div className="grow">
+                      <span className="text-sm eass7 j4ei7 dark:text-neutral-200">
+                        RayBan black sunglasses
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    65%
+                    <span className="inline-block text-red-500">
+                      0.9%
+                      <svg
+                        className="inline-block ja4wp sfo8l qcpnt text-red-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline>
+                        <polyline points="16 17 22 17 22 11"></polyline>
+                      </svg>
+                    </span>
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    $37
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    5,951
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="font-semibold dtjcu j4ei7 dark:text-neutral-200">
+                    $10,351.71
+                  </span>
+                </td>
+              </tr>
+
+              <tr className="hover:bg-stone-100 cursor-pointer dark:hover:bg-neutral-900">
+                <td className="h-px lnq7o mfkro c8qx6 mvnfe align-top">
+                  <input
+                    type="checkbox"
+                    className="shrink-0 dmrud sg5ei mq8xz focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-green-500 dark:checked:border-green-500 dark:focus:ring-offset-neutral-800"
+                  />
+                </td>
+                <td className="h-px lnq7o mvnfe qxuf9 relative">
+                  <a
+                    className="before:absolute s920d before:z-[9]"
+                    href="#"
+                  ></a>
+                  <div className="w-full flex items-center gap-x-3">
+                    <img
+                      className="flex-shrink-0 w13ko e4kj6 rounded-md"
+                      src="https://images.unsplash.com/photo-1610398752800-146f269dfcc8?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=320&amp;q=80"
+                      alt="Image Description"
+                    />
+                    <div className="grow">
+                      <span className="text-sm eass7 j4ei7 dark:text-neutral-200">
+                        Mango Women's shoe
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    53%
+                    <span className="inline-block text-red-500">
+                      0.1%
+                      <svg
+                        className="inline-block ja4wp sfo8l qcpnt text-red-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline>
+                        <polyline points="16 17 22 17 22 11"></polyline>
+                      </svg>
+                    </span>
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    $65
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    5,002
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="font-semibold dtjcu j4ei7 dark:text-neutral-200">
+                    $9,917.45
+                  </span>
+                </td>
+              </tr>
+
+              <tr className="hover:bg-stone-100 cursor-pointer dark:hover:bg-neutral-900">
+                <td className="h-px lnq7o mfkro c8qx6 mvnfe align-top">
+                  <input
+                    type="checkbox"
+                    className="shrink-0 dmrud sg5ei mq8xz focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-green-500 dark:checked:border-green-500 dark:focus:ring-offset-neutral-800"
+                  />
+                </td>
+                <td className="h-px lnq7o mvnfe qxuf9 relative">
+                  <a
+                    className="before:absolute s920d before:z-[9]"
+                    href="#"
+                  ></a>
+                  <div className="w-full flex items-center gap-x-3">
+                    <img
+                      className="flex-shrink-0 w13ko e4kj6 rounded-md"
+                      src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=320&amp;q=80"
+                      alt="Image Description"
+                    />
+                    <div className="grow">
+                      <span className="text-sm eass7 j4ei7 dark:text-neutral-200">
+                        Plain white sweater
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    69%
+                    <span className="inline-block text-green-500">
+                      14.2%
+                      <svg
+                        className="inline-block ja4wp sfo8l qcpnt text-green-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                        <polyline points="16 7 22 7 22 13"></polyline>
+                      </svg>
+                    </span>
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    $21
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    6,643
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="font-semibold dtjcu j4ei7 dark:text-neutral-200">
+                    $12,492.21
+                  </span>
+                </td>
+              </tr>
+
+              <tr className="hover:bg-stone-100 cursor-pointer dark:hover:bg-neutral-900">
+                <td className="h-px lnq7o mfkro c8qx6 mvnfe align-top">
+                  <input
+                    type="checkbox"
+                    className="shrink-0 dmrud sg5ei mq8xz focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-green-500 dark:checked:border-green-500 dark:focus:ring-offset-neutral-800"
+                  />
+                </td>
+                <td className="h-px lnq7o mvnfe qxuf9 relative">
+                  <a
+                    className="before:absolute s920d before:z-[9]"
+                    href="#"
+                  ></a>
+                  <div className="w-full flex items-center gap-x-3">
+                    <img
+                      className="flex-shrink-0 w13ko e4kj6 rounded-md"
+                      src="https://images.unsplash.com/photo-1611911813383-67769b37a149?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=320&amp;q=80"
+                      alt="Image Description"
+                    />
+                    <div className="grow">
+                      <a
+                        className="text-sm eass7 j4ei7 z9fa3 cmffi cdcib focus:outline-none focus:underline focus:text-green-600 dark:text-neutral-200 dark:hover:text-green-500 dark:focus:text-green-500"
+                        href="#"
+                      >
+                        Pattern Winter Sweater
+                      </a>
+                    </div>
+                  </div>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    42%
+                    <span className="inline-block text-green-500">
+                      8.1%
+                      <svg
+                        className="inline-block ja4wp sfo8l qcpnt text-green-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                        <polyline points="16 7 22 7 22 13"></polyline>
+                      </svg>
+                    </span>
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    $47
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    3,391
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="font-semibold dtjcu j4ei7 dark:text-neutral-200">
+                    $7,089.10
+                  </span>
+                </td>
+              </tr>
+
+              <tr className="hover:bg-stone-100 cursor-pointer dark:hover:bg-neutral-900">
+                <td className="h-px lnq7o mfkro c8qx6 mvnfe align-top">
+                  <input
+                    type="checkbox"
+                    className="shrink-0 dmrud sg5ei mq8xz focus:ring-green-600 kko9e tk4f7 dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-green-500 dark:checked:border-green-500 dark:focus:ring-offset-neutral-800"
+                  />
+                </td>
+                <td className="h-px lnq7o mvnfe qxuf9 relative">
+                  <a
+                    className="before:absolute s920d before:z-[9]"
+                    href="#"
+                  ></a>
+                  <div className="w-full flex items-center gap-x-3">
+                    <img
+                      className="flex-shrink-0 w13ko e4kj6 rounded-md"
+                      src="https://images.unsplash.com/photo-1616969899621-0ea269426a21?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=320&amp;q=80"
+                      alt="Image Description"
+                    />
+                    <div className="grow">
+                      <span className="text-sm eass7 j4ei7 dark:text-neutral-200">
+                        White Blazer by Armani
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    11%
+                    <span className="inline-block text-red-500">
+                      0.3%
+                      <svg
+                        className="inline-block ja4wp sfo8l qcpnt text-red-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline>
+                        <polyline points="16 17 22 17 22 11"></polyline>
+                      </svg>
+                    </span>
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    $17
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="text-sm v474b dark:text-neutral-400">
+                    4,191
+                  </span>
+                </td>
+                <td className="h-px lnq7o mfkro mvnfe px-5">
+                  <span className="font-semibold dtjcu j4ei7 dark:text-neutral-200">
+                    $8,610
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div className="mt-5 flex azaj8 items-center gap-2">
+        <div className="relative inline-block">
+          <div className="hs-select relative">
+            <select
+              data-hs-select='{
+            "placeholder": "Select option...",
+            "toggleTag": "<button type=\"button\"></button>",
+            "toggleClasses": "hs-select-disabled:pointer-events-none n7tpi relative xxfsd c8qx6 zam4o flex dqqs4 text-nowrap w-full cursor-pointer f0dty l66z3 ffqht nq4w8 in9y1 dtjcu focus:outline-none focus:ring-2 focus:ring-green-600 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-neutral-600",
+            "dropdownClasses": "mt-2 s269j stjsq yjsas dpnc4 xy3is bx801 pk1vk f0dty k3u76 shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] mws46 szov1 nn2ns g3n6w dark:[&amp;::-webkit-scrollbar-track]:bg-neutral-700 dark:[&amp;::-webkit-scrollbar-thumb]:bg-neutral-500 dark:bg-neutral-900",
+            "optionClasses": "hs-selected:bg-stone-100 dark:hs-selected:bg-neutral-800 zdxcz grnyh w-full ldcb4 j4ei7 cursor-pointer r1hp8 nq4w8 focus:outline-none focus:bg-stone-100 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700",
+            "optionTemplate": "<div class=\"flex azaj8 items-center w-full\"><span data-title></span><span class=\"hidden hs-selected:block\"><svg class=\"flex-shrink-0 xtsb0 f5cx3 j4ei7 dark:text-neutral-200\" xmlns=\"http:.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg></span></div>"
+          }'
+              className="hidden"
+              style="display: none;"
+            >
+              <option value="">Choose</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option selected="">5</option>
+              <option>6</option>
+              <option>7</option>
+            </select>
+            <button
+              type="button"
+              className="hs-select-disabled:pointer-events-none n7tpi relative xxfsd c8qx6 zam4o flex dqqs4 text-nowrap w-full cursor-pointer f0dty l66z3 ffqht nq4w8 in9y1 dtjcu focus:outline-none focus:ring-2 focus:ring-green-600 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-neutral-600"
+            >
+              <span className="truncate">5</span>
+            </button>
+            <div className="absolute top-full hidden mt-2 s269j stjsq yjsas dpnc4 xy3is bx801 pk1vk f0dty k3u76 shadow-[0_10px_40px_10px_rgba(0,0,0,0.08)] mws46 szov1 nn2ns g3n6w dark:[&amp;::-webkit-scrollbar-track]:bg-neutral-700 dark:[&amp;::-webkit-scrollbar-thumb]:bg-neutral-500 dark:bg-neutral-900">
+              <div
+                data-value="1"
+                data-title-value="1"
+                tabindex="0"
+                className="cursor-pointer hs-selected:bg-stone-100 dark:hs-selected:bg-neutral-800 zdxcz grnyh w-full ldcb4 j4ei7 r1hp8 nq4w8 focus:outline-none focus:bg-stone-100 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              >
+                <div className="flex azaj8 items-center w-full">
+                  <span data-title="">1</span>
+                  <span className="hidden hs-selected:block">
+                    <svg
+                      className="flex-shrink-0 xtsb0 f5cx3 j4ei7 dark:text-neutral-200"
+                      xmlns="http:.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div
+                data-value="2"
+                data-title-value="2"
+                tabindex="1"
+                className="cursor-pointer hs-selected:bg-stone-100 dark:hs-selected:bg-neutral-800 zdxcz grnyh w-full ldcb4 j4ei7 r1hp8 nq4w8 focus:outline-none focus:bg-stone-100 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              >
+                <div className="flex azaj8 items-center w-full">
+                  <span data-title="">2</span>
+                  <span className="hidden hs-selected:block">
+                    <svg
+                      className="flex-shrink-0 xtsb0 f5cx3 j4ei7 dark:text-neutral-200"
+                      xmlns="http:.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div
+                data-value="3"
+                data-title-value="3"
+                tabindex="2"
+                className="cursor-pointer hs-selected:bg-stone-100 dark:hs-selected:bg-neutral-800 zdxcz grnyh w-full ldcb4 j4ei7 r1hp8 nq4w8 focus:outline-none focus:bg-stone-100 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              >
+                <div className="flex azaj8 items-center w-full">
+                  <span data-title="">3</span>
+                  <span className="hidden hs-selected:block">
+                    <svg
+                      className="flex-shrink-0 xtsb0 f5cx3 j4ei7 dark:text-neutral-200"
+                      xmlns="http:.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div
+                data-value="4"
+                data-title-value="4"
+                tabindex="3"
+                className="cursor-pointer hs-selected:bg-stone-100 dark:hs-selected:bg-neutral-800 zdxcz grnyh w-full ldcb4 j4ei7 r1hp8 nq4w8 focus:outline-none focus:bg-stone-100 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              >
+                <div className="flex azaj8 items-center w-full">
+                  <span data-title="">4</span>
+                  <span className="hidden hs-selected:block">
+                    <svg
+                      className="flex-shrink-0 xtsb0 f5cx3 j4ei7 dark:text-neutral-200"
+                      xmlns="http:.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div
+                data-value="5"
+                data-title-value="5"
+                tabindex="4"
+                className="cursor-pointer selected hs-selected:bg-stone-100 dark:hs-selected:bg-neutral-800 zdxcz grnyh w-full ldcb4 j4ei7 r1hp8 nq4w8 focus:outline-none focus:bg-stone-100 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              >
+                <div className="flex azaj8 items-center w-full">
+                  <span data-title="">5</span>
+                  <span className="hidden hs-selected:block">
+                    <svg
+                      className="flex-shrink-0 xtsb0 f5cx3 j4ei7 dark:text-neutral-200"
+                      xmlns="http:.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div
+                data-value="6"
+                data-title-value="6"
+                tabindex="5"
+                className="cursor-pointer hs-selected:bg-stone-100 dark:hs-selected:bg-neutral-800 zdxcz grnyh w-full ldcb4 j4ei7 r1hp8 nq4w8 focus:outline-none focus:bg-stone-100 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              >
+                <div className="flex azaj8 items-center w-full">
+                  <span data-title="">6</span>
+                  <span className="hidden hs-selected:block">
+                    <svg
+                      className="flex-shrink-0 xtsb0 f5cx3 j4ei7 dark:text-neutral-200"
+                      xmlns="http:.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div
+                data-value="7"
+                data-title-value="7"
+                tabindex="6"
+                className="cursor-pointer hs-selected:bg-stone-100 dark:hs-selected:bg-neutral-800 zdxcz grnyh w-full ldcb4 j4ei7 r1hp8 nq4w8 focus:outline-none focus:bg-stone-100 dark:text-neutral-300 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              >
+                <div className="flex azaj8 items-center w-full">
+                  <span data-title="">7</span>
+                  <span className="hidden hs-selected:block">
+                    <svg
+                      className="flex-shrink-0 xtsb0 f5cx3 j4ei7 dark:text-neutral-200"
+                      xmlns="http:.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="absolute ikyla cs373 -translate-y-1/2">
+            <svg
+              className="flex-shrink-0 xtsb0 f5cx3 text-stone-500"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m7 15 5 5 5-5"></path>
+              <path d="m7 9 5-5 5 5"></path>
+            </svg>
+          </div>
+        </div>
+
+        <a
+          className="inline-flex items-center azej2 dtjcu mq8xz cmffi cdcib focus:outline-none focus:underline dark:text-green-400 dark:hover:text-green-500"
+          href="#"
+        >
+          All top products
+          <svg
+            className="flex-shrink-0 sfo8l h-4"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m9 18 6-6-6-6"></path>
+          </svg>
+        </a>
+      </div>
+    </div>

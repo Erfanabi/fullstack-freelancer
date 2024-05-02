@@ -1,0 +1,5 @@
+{
+  "platform": "node",
+  "app": "finallapp-api",
+  "port": 5000
+}
