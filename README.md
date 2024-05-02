@@ -23,8 +23,6 @@
 ادمین بر تمام این فعالیت ها نظارت می کنه و لیستی از تمام کاربران و تمام پروژه ها و تمام درخواست ها در پنل خود دارد.
 
 
-- [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 
 - [Demo Project](https://profreelancer.ir)
 - فرانت و بک اند همراه دیتابیس در لیارا دیپلوی شده
